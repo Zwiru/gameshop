@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: url("../img/pobrane.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-header,
+.jumbotron-description {
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.container {
+    width: 720px;
+    max-width: 100%;
+}

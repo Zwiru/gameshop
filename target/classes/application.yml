@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gameshop
+  datasource:
+    url: jdbc:h2:mem:test;NON_KEYWORDS=USER
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true

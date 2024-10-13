@@ -19,6 +19,8 @@ public class Game {
     private int releaseDate;
     private String producer;
     private String publisher;
+    private boolean promoted;
+    private boolean recentlyAdded;
 
     public Long getId() {
         return id;
@@ -98,5 +100,21 @@ public class Game {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public boolean isPromoted() {
+        return promoted;
+    }
+
+    public void setPromoted(boolean promoted) {
+        this.promoted = promoted;
+    }
+
+    public boolean isRecentlyAdded() {
+        return recentlyAdded;
+    }
+
+    public void setRecentlyAdded(boolean recentlyAdded) {
+        this.recentlyAdded = recentlyAdded;
     }
 }
